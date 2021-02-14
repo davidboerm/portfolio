@@ -1,7 +1,7 @@
 # 02-advanced-css-portfolio
 
 ## Description
-Basic HTML/CSS singel page portfolio website
+Basic HTML/CSS single page portfolio website
 
 ## Screenshot
 ![screenshot of website](images/screenshot.png)
