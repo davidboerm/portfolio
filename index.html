@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Resets</title>
+  <!-- The reset file should load first to avoid reverting styles -->
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>David Boerm</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <article id="about">
+        <h2>About Me</h2>
+        <div>
+          <img src="./images/IMG-7789.jpg" alt="handsome devil, your's truly" width=25%><p>I am a wanderer in awe of the creative beauty that surrounds us. </p>
+
+          <p>I've wandered far and long to get here. After 20 years in the Air Force doing electronic maintenance on
+            huge metal birds, I decided I needed more challenges so I became a graphic designer where I was first
+            exposed to HTML and CSS. I tinkered around with website design, but I quickly realized I needed to learn
+            more about the inner workings of web technologies and really see what gears and pullies are moving under the
+            hood.</p>
+          <p>So here we are! On a new journey learning how to code websites and applications and gaining valuable
+            experience and tangible results. See my work below for examples.</p>
+        </div>
+      </article>
+      <article id="work">
+        <h2>Work</h2>
+        <div>
+          <!-- Portfolio Gallery Grid -->
+          <div class="row">
+            <div class="column">
+              <div class="content">
+                <img src="./images/placeholder.png" alt="work sample 1" style="width:25%">
+                <h3>HTML/CSS Website</h3>
+                <p>Lorem ipsum..</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="./images/placeholder.png" alt="work sample 2" style="width:25%">
+                <h3>JavaScript Workout Planner</h3>
+                <p>Lorem ipsum..</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="./images/placeholder.png" alt="work sample 3" style="width:25%">
+                <h3>Web API</h3>
+                <p>Lorem ipsum..</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="./images/placeholder.png" alt="work sample 4" style="width:25%">
+                <h3>Third-Party API</h3>
+                <p>Lorem ipsum..</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article id="contact">
+        <div>
+          <h2>Contact</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam lorem, lobortis...
+          </p>
+        </div>
+      </article>
+      <article id="resume">
+        <div>
+          <h2>Resume</h2>
+          <p>
+            Download my resume -->
+          </p>
+          <a href="./images/David Boerm_GDresume.docx" download>doc</a>
+          <a href="./images/David Boerm_GDresume.pdf" download>pdf</a>
+        </div>
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>Thanks for checking out my portfolio!</span>
+  </footer>
+</body>
+
+</html>
