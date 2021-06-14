@@ -4,11 +4,14 @@
 
 ## Description
   This is my professional portfolio website containing some of my work and how to contact me.
+## Screenshots
+![portfolio site screenshot](./assets/images/screenshot-1.png)
+![portfolio site screenshot](./assets/images/screenshot-2.png)
+![portfolio site screenshot](./assets/images/screenshot-3.png)
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Demo](#demo)
 - [License](#license)
 - [Tests](#test)
 - [Questions](#questions)
@@ -18,7 +21,7 @@
   N/A
 ## Contributing
   N/A
-## Demo
+## Deployed Link
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
